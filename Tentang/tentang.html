@@ -6,14 +6,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <nav>
         <div class="topnav" id="myTopnav">
           <a href="../index.html">Web Pribadi Farid</a>
-          <a href="Tentang/tentang.html" class="active">Tentang</a>
+          <a href="#" class="active">Tentang</a>
           <a href="../Portofolio/Portofolio.html">Portofolio</a>
           <a href="../Kontak/Kontak.html">Kontak</a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -23,9 +24,13 @@
       </nav>
       <main>
         <article class="bio">
-          <img src="" alt="" />
+          <div class="row">
+            <div class="col-6 -col-s-12">
+          <img src="../img/fotofarid.png" alt=""/>
+            </div>
+            <div class="col-6">
           <aside>
-            <h1>Tentang Sayas</h1>
+            <h1>Tentang Saya</h1>
             <div class="tentangsaya">
               <b>Nama</b><br />
               <p>Farid Indrawan</p>
@@ -42,6 +47,8 @@
               </p>
             </div>
           </aside>
+            </div>
+          </div>
         </article>
         <article>
           <h1>Riwayat Pendidikan Saya</h1>
@@ -134,7 +141,11 @@
         </div>
       </main>
     </header>
-    <main></main>
+  </main>
+  <footer>&copy;FaridIndrawan 2024</footer>
     <script src="../script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+      AOS.init();
+    </script>
   </body>
 </html>
